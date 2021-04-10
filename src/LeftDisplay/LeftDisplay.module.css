@@ -1,0 +1,46 @@
+
+
+  .flex_top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+
+.flex_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.button1{
+    position: absolute;
+    top:21%;
+    left: 18%;
+    box-sizing: border-box;
+}
+
+.button2{
+    position: absolute;
+    top:21%;
+    right: 18%;
+    box-sizing: border-box;
+}
+
+.button3{
+    position: absolute;
+    bottom:21%;
+    left: 18%;
+    box-sizing: border-box;
+}
+.button4{
+    position: absolute;
+    bottom:21%;
+    right: 18%;
+    box-sizing: border-box;
+}
+
+.title{
+text-decoration: none;
+}
