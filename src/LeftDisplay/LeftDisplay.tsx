@@ -26,7 +26,11 @@ const LeftDisplay: React.FC = () => {
       </div>
       <div className={styles.flex_bottom}>
         <div className={styles.button3}>
-          <Buttons title={"ホーム3"} icon={<PersonIcon />} />
+        <label>
+            <Link to="/Profile" className={styles.title}>
+              <Buttons title={"自己紹介"} icon={<PersonIcon />} />
+            </Link>
+          </label>
         </div>
         <div className={styles.button4}>
         <label>

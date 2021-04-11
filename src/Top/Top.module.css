@@ -1,0 +1,10 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 48px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}

@@ -4,7 +4,7 @@
 
 .app_left {
   /* あとで消す */
-  background-color: orangered;
+  /* background-color: orangered; */
   width: 50%;
   height: 100vh;
 
@@ -19,14 +19,14 @@
 
 .left_container {
   width: 70%;
-  background-color: rgb(124, 52, 64);
+  /* background-color: rgb(124, 52, 64); */
   height: 70%;
   position: relative;
 }
 
 .app_right {
     
-  background-color: rgb(57, 97, 170);
+  /* background-color: rgb(57, 97, 170); */
   width: 50%;
   height: 100vh;
   display: flex;
@@ -38,7 +38,7 @@
 
 .app_right_container {
   width: 70%;
-  background-color: pink;
+  background-color: rgb(221, 223, 213);
   height: 70%;
   
 }
