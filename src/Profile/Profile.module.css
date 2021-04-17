@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     margin-top: 10%;
+    
 }
 
 .name_title{
@@ -28,4 +29,25 @@
     display: flex;
     justify-content: center;
     
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.modal_container{
+    width: 25%;
+    height: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.modal_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

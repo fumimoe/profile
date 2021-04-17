@@ -38,10 +38,30 @@
 
 .app_right_container {
   width: 70%;
-  background-color: rgb(221, 223, 213);
+ 
   height: 70%;
-  
+  border-radius: 30px;
 }
 
+@media screen and (max-width: 1200px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
 
+  .app_left{
+    width: 0;
+  }
+  .app_right{
+    box-sizing: border-box;
+    width: 100%;
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
 
+  .app_right_container{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  }
+}

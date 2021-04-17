@@ -10,8 +10,9 @@ const Top = () => {
             <div className={styles.App}>
           <p>
           <Typed className={styles.title}
-                    strings={['自己紹介のページです。','現在ReactとTypeScriptを学んでいます!',"ポートフォリオサイト作成中です！"]}
+                    strings={['Thank you for watching this Profile website',"I'm studying React and TypeScript",]}
                     typeSpeed={100}
+                    stopped={false}
                 />
            
           </p>

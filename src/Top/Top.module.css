@@ -8,3 +8,8 @@
     box-sizing: border-box;
     text-align: center;
 }
+
+.title{
+    font-weight: bold;
+    color: rgb(88, 0, 74);
+}
