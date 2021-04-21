@@ -36,14 +36,18 @@ export const ContactForm: React.FC = () => {
   return (
     <div>
       <h2 className={styles.title}>お問い合わせ</h2>
-      {isSubmit&& open && (
+      {isSubmit && open && (
         <Alert onClose={() => handleClose()} severity="success">
           This is a success alert — check it out!
         </Alert>
       )}
       <div className={styles.form_container}>
         <form onSubmit={handleSubmit(handleOnSubmit)}>
-          {errors.username && <span className={styles.error_message}>{errors.username.message}</span>}
+          {errors.username && (
+            <span className={styles.error_message}>
+              {errors.username.message}
+            </span>
+          )}
           <input
             className={styles.input}
             type="text"
@@ -52,7 +56,9 @@ export const ContactForm: React.FC = () => {
             ref={register({ required: "※入力必須です" })}
           />
           <br />
-          {errors.email && <span className={styles.error_message}>{errors.email.message}</span>}
+          {errors.email && (
+            <span className={styles.error_message}>{errors.email.message}</span>
+          )}
           <input
             className={styles.input}
             type="email"
@@ -67,7 +73,9 @@ export const ContactForm: React.FC = () => {
             })}
           />
           <br />
-          {errors.text && <span className={styles.error_message}>{errors.text.message}</span>}
+          {errors.text && (
+            <span className={styles.error_message}>{errors.text.message}</span>
+          )}
           <textarea
             className={styles.textarea}
             name="text"

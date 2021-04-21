@@ -5,16 +5,13 @@
   margin: 0 auto;
   margin-top: 4%;
   overflow: hidden;
- border-radius: 30px;
- object-fit: cover;
+  border-radius: 30px;
+  object-fit: cover;
 }
-
-
 
 .pictureArea {
   height: auto;
   width: 100%;
-  
 }
 .img {
   width: 100%;
@@ -25,7 +22,6 @@
 .messageArea {
   box-sizing: border-box;
   padding: 20px;
-
 }
 
 .title {
@@ -37,12 +33,9 @@
 
 @media screen and (max-width: 1200px) {
   .root {
-  
     margin-top: 12%;
-  
   }
   .pictureArea {
-    
     height: 280px;
   }
   .img {

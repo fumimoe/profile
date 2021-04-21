@@ -1,35 +1,34 @@
-.button{
+.button {
   position: relative;
-  background: linear-gradient(25deg, #FFF, #f7e55b); 
+  background: linear-gradient(25deg, #fff, #f7e55b);
   border-radius: 20px;
   color: rgb(238, 113, 221);
   line-height: 52px;
   -webkit-transition: none;
   transition: none;
-  box-shadow:#fff;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+  box-shadow: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
   width: 120px;
   height: 120px;
 }
 
-.button:hover{
+.button:hover {
   top: -4px;
-  box-shadow: #FFF;
-  background: linear-gradient(25deg, #FFF, #F89174); 
-  
+  box-shadow: #fff;
+  background: linear-gradient(25deg, #fff, #f89174);
 }
 .button:active {
   top: 3px;
   box-shadow: none;
 }
 
-.button_title{
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
+.button_title {
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
 }
 
-.button_icon{
-    text-align: center;
-    line-height: 50px;
+.button_icon {
+  text-align: center;
+  line-height: 50px;
 }
