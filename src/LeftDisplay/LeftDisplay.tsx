@@ -16,7 +16,7 @@ const LeftDisplay: React.FC = () => {
     <div>
       {isWide ? (
         <>
-          {" "}
+        
           <div className={styles.flex_top}>
             <div className={styles.button1}>
               <label>

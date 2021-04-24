@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import Swiper from "react-id-swiper";
+
 import CardDetail from "../Card/Card";
-import styles from "./SkillProduct.module.css";
 import "swiper/css/swiper.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -45,7 +44,7 @@ const SkillProduct: React.FC = () => {
     <div>
       <Slider {...settings}>
         {productLists.map((productList, index) => (
-          <div className={styles.container}>
+          <div>
             <CardDetail
               key={index}
               img={productList.img}
