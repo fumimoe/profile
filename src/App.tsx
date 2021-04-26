@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./App.module.css";
-import LeftDisplay from "./LeftDisplay/LeftDisplay";
+import LeftDisplay from "./Pages/LeftDisplay/LeftDisplay";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { ContactForm } from "./Form/Form";
-import Top from "./Top/Top";
-import Profile from "./Profile/Profile";
-import SkillProduct from "./SkillProduct/SkillProduct";
+import { ContactForm } from "./Pages/Form/Form";
+import Top from "./Pages/Top/Top";
+import Profile from "./Pages/Profile/Profile";
+import SkillProduct from "./Pages/SkillProduct/SkillProduct";
 import useMedia from "use-media";
 
 const App: React.FC = () => {

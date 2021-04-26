@@ -6,7 +6,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import { IconButton } from "@material-ui/core";
 import Tooltip from "@material-ui/core/Tooltip";
-import url from "../image/profile.jpg";
+import url from "../../image/profile.jpg";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
