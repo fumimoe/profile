@@ -19,7 +19,7 @@ react-typedを使用
 ## 作成理由
  自分がやってきたことやアプリなどを格納していきたいと思います。
 
-##Qiita
+## Qiita
 https://qiita.com/moemon/items/03e5a6607de1e8e6a2d6
 
 上記記事に反省点やできたことなどまとめてます。
