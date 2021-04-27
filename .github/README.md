@@ -2,7 +2,7 @@
 ：https://fumimoe.github.io/profile/
 
 ## 使用技術
-React・
+React
 ・TypeScript
 ・css/HTML
 ・material ui
