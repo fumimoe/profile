@@ -3,8 +3,11 @@
 
 ## 使用技術
 React　　
+
 TypeScript　　
+
 css/HTML　　
+
 material ui　　
 
 
