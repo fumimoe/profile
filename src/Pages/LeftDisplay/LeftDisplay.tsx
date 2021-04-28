@@ -7,7 +7,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import styles from "./LeftDisplay.module.css";
 import { Link } from "react-router-dom";
 import useMedia from "use-media";
-import Header from "../../Header/Header";
+import Header from "../Header/Header";
 
 const LeftDisplay: React.FC = () => {
   const isWide = useMedia({ minWidth: "1200px" });
